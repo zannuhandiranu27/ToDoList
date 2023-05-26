@@ -1,0 +1,28 @@
+body {
+  /* background: linear-gradient(190deg,
+          rgb(134, 123, 205) 0%,
+          rgb(106, 90, 171) 100%); */
+  background: #8294C4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #222;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.App {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.App h1,
+h2,
+p {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #e1ebfd;
+
+  text-shadow: 0 0 5px #433aa8, 3px -1px 5px #271c6c;
+}
